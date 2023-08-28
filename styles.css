@@ -94,3 +94,41 @@ img {
     border-radius: 10px;
 
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-of-blue-divs {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 175px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.box-blue {
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+.p-second {
+    text-align: center;
+    margin-top: 220px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
