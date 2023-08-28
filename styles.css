@@ -108,16 +108,16 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     max-width: 100%;
-    margin: 175px;
+    margin: 250px;
     align-items: center;
     margin-top: 50px;
 
 }
 
 .box-blue {
-    border: 2px solid #3882F6;
-    width: 200px;
-    height: 200px;
+    border: 4px solid #3882F6;
+    width: 175px;
+    height: 175px;
     border-radius: 15px;
 }
 
@@ -131,4 +131,32 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 425px;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-quote {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: #1f2937;
+    margin-left: 300px;
+    margin-top: 35px;
 }
